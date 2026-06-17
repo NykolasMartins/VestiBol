@@ -5,9 +5,10 @@
  */
 import { useGame } from '@/hooks/useGame';
 import logo from '../assets/logo-vestibol.png'
+import fundo from '../assets/fundo-resultado.jpg'
 
 
-const HERO_URL = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663768624586/ZsCbDQJhC2ByYCVoUB6erj/vestibol-hero-Lwx5byXt4EE9BvrLD2mAJ3.webp';
+const HERO_URL = fundo;
 const LOGO_URL = logo;
 
 const STEPS = [

@@ -7,8 +7,10 @@ import { useState } from 'react';
 import { useGame } from '@/hooks/useGame';
 import { CupMatch } from '@/lib/gameStore';
 import Layout from '@/components/Layout';
+import fundo from '../assets/fundo-resultado2.jpg'
 
-const COPA_BG = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663768624586/ZsCbDQJhC2ByYCVoUB6erj/vestibol-copa-bg-JZohHiZr5ExD3qBSq95XyP.webp';
+
+const COPA_BG =  fundo;
 
 export default function Cup() {
   const { state, teamRepresentatives, teamRating, nextMatch, cupWon, cupLostAt, playNextMatch, goToTeamSelection, resetGame } = useGame();
